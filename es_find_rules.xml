@@ -13,6 +13,12 @@
             <entry>com.armsx3/com.armsx2.Main</entry>
         </rule>
     </emulator>
+	<emulator name="BACHATAS4">
+        <!-- Sony PlayStation 4 emulator BachataS4 -->
+        <rule type="androidpackage">
+            <entry>com.bachatas4.android/.DirectLaunchActivity</entry>
+        </rule>
+    </emulator>
 	<emulator name="BENJI-SC">
         <!-- Nintendo Switch emulator Benji-SC -->
         <rule type="androidpackage">
@@ -69,6 +75,12 @@
         <rule type="androidpackage">
             <entry>org.dolphinemu.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
 			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+        </rule>
+    </emulator>
+	<emulator name="EMUCOREC">
+        <!-- Sony PlayStation 3 emulator EmuCoreC -->
+        <rule type="androidpackage">
+            <entry>com.sbro.emucorec/.core.ps3.Emulator</entry>
         </rule>
     </emulator>
     <emulator name="EMUCOREV">
@@ -182,6 +194,13 @@
         <!-- Microsoft Xbox 360 emulator XenDroid -->
         <rule type="androidpackage">
             <entry>xendroid.compose/.EmulatorHostActivity</entry>
+        </rule>
+    </emulator>
+	<emulator name="XENRA">
+        <!-- Microsoft Xbox and Xbox 360 emulator Xenra -->
+        <rule type="androidpackage">
+            <entry>Ali.Xanite/Ali.Xanite.LauncherActivity</entry>
+			<entry>Ali.Xanite.green/Ali.Xanite.LauncherActivity</entry>
         </rule>
     </emulator>
     <emulator name="YUZU">
